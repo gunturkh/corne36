@@ -11,7 +11,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        base {
             // -----------------------------------------------------------------------------------------
             // | NONE |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | NONE |
             // | NONE |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  | NONE |
@@ -26,7 +26,7 @@
             >;
         };
 
-        NUM_LAYER {
+        num {
             bindings = <
 &trans  &none  &kp N7  &kp N8  &kp N9  &kp N0    &trans  &trans     &trans     &trans    &trans    &trans
 &trans  &none  &kp N4  &kp N5  &kp N6  &trans    &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
@@ -35,7 +35,7 @@
             >;
         };
 
-        SYM_LAYER {
+        sym {
             bindings = <
 &trans  &kp GRAVE  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans    &trans    &trans
 &trans  &trans     &trans  &trans  &trans  &trans    &trans  &kp LSHFT  &kp LCTRL  &kp RALT  &kp RGUI  &trans
