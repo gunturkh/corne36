@@ -15,26 +15,31 @@
         bracket_combo {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <9 10>;
+            layers = <0>;
         };
 
         cmd_combo_right {
             bindings = <&kt RIGHT_COMMAND>;
             key-positions = <21 22>;
+            layers = <0>;
         };
 
         ctrl_combo_right {
             bindings = <&kt RIGHT_CONTROL>;
             key-positions = <21 20>;
+            layers = <0>;
         };
 
         shift_combo_right {
             bindings = <&kt RIGHT_SHIFT>;
             key-positions = <19 20>;
+            layers = <0>;
         };
 
         alt_combo_right {
             bindings = <&kt RIGHT_ALT>;
             key-positions = <18 19>;
+            layers = <0>;
         };
     };
 
