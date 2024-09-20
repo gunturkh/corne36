@@ -18,7 +18,7 @@
 #
 ---
 include:
-  - board: nrfmicro_13_52833
+  - board: nice_nanov2
     shield: corne_left
-  - board: nrfmicro_13_52833
+  - board: nice_nanov2
     shield: corne_right
