@@ -78,8 +78,14 @@
         };
 
         lalt_combo {
-            bindings = <&kp RIGHT_ALT>;
+            bindings = <&kp LEFT_ALT>;
             key-positions = <16 17>;
+            layers = <0>;
+        };
+
+        lctrl_alt_combo {
+            bindings = <&kp LC(LEFT_ALT)>;
+            key-positions = <16 14 15>;
             layers = <0>;
         };
     };
@@ -150,10 +156,10 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &trans  &trans
-                        &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans    &trans     &trans    &trans     &trans    &trans    &trans    &trans  &trans     &trans  &trans
+&trans  &kp LGUI  &kp LCTRL  &kp LALT  &kp LSHFT  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans  &trans    &trans     &trans    &trans     &trans    &trans    &trans    &trans  &trans     &trans  &trans
+                             &trans    &trans     &trans    &trans    &trans    &trans
             >;
 
             label = "nav";
