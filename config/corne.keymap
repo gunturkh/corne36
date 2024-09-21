@@ -100,6 +100,8 @@
 &none  &kp Z  &kp X  &kp C                &kp V            &kp B           &kp N      &kp M        &kp COMMA    &kp DOT  &kp FSLH  &none
                      &mt LEFT_SHIFT CAPS  &lt 3 BACKSPACE  &lt 5 ESCAPE    &lt 2 TAB  &lt 1 SPACE  &lt 4 ENTER
             >;
+
+            label = "base";
         };
 
         num {
@@ -109,6 +111,8 @@
 &trans  &none   &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans    &trans    &trans
                         &trans  &trans  &trans    &trans  &trans     &trans
             >;
+
+            label = "num";
         };
 
         sym {
@@ -118,6 +122,8 @@
 &trans  &kp MINUS  &kp EQUAL        &kp SQT       &kp PLUS              &kp BACKSLASH            &trans  &trans     &trans     &trans    &trans    &trans
                                     &trans        &trans                &trans                   &trans  &trans     &trans
             >;
+
+            label = "sym";
         };
 
         media {
@@ -127,15 +133,19 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
+
+            label = "media";
         };
 
-        function {
+        func {
             bindings = <
 &trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp F11  &kp F12  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
                           &trans  &trans  &trans     &trans  &trans  &trans
             >;
+
+            label = "func";
         };
 
         nav {
@@ -145,6 +155,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &trans  &trans
                         &trans  &trans  &trans    &trans    &trans    &trans
             >;
+
+            label = "nav";
         };
     };
 };
