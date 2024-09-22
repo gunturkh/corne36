@@ -88,6 +88,12 @@
             key-positions = <16 14 15>;
             layers = <0>;
         };
+
+        lcmd_shift_combo {
+            bindings = <&kp LC(LEFT_ALT)>;
+            key-positions = <14 15 13>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -156,10 +162,10 @@
 
         nav {
             bindings = <
-&trans  &trans    &trans     &trans    &trans     &trans    &trans    &trans    &trans  &trans     &trans  &trans
-&trans  &kp LGUI  &kp LCTRL  &kp LALT  &kp LSHFT  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans  &trans    &trans     &trans    &trans     &trans    &trans    &trans    &trans  &trans     &trans  &trans
-                             &trans    &trans     &trans    &trans    &trans    &trans
+&trans  &trans    &trans     &trans    &trans     &trans    &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)  &trans
+&trans  &kp LGUI  &kp LCTRL  &kp LALT  &kp LSHFT  &trans    &kp LEFT          &kp DOWN          &kp UP            &kp RIGHT         &trans      &trans
+&trans  &trans    &trans     &trans    &trans     &trans    &trans            &trans            &trans            &trans            &trans      &trans
+                             &trans    &trans     &trans    &kp LC(A)         &trans            &trans
             >;
 
             label = "nav";
