@@ -95,6 +95,20 @@
             bindings = <&kp N0 &kp N0 &kp N0>;
             label = "MACRO_000";
         };
+
+        macro_gprev: macro_gprev {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET &kp G>;
+            label = "MACRO_GPREV";
+        };
+
+        macro_gnext: macro_gnext {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_BRACKET &kp G>;
+            label = "MACRO_GNEXT";
+        };
     };
 
     behaviors {
@@ -175,7 +189,7 @@
             bindings = <
 &trans  &trans    &trans     &trans    &trans     &trans    &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)  &trans
 &trans  &kp LGUI  &kp LCTRL  &kp LALT  &kp LSHFT  &trans    &kp LEFT          &kp DOWN          &kp UP            &kp RIGHT         &kp MINUS   &trans
-&trans  &trans    &trans     &trans    &trans     &trans    &trans            &trans            &trans            &trans            &kp PIPE    &trans
+&trans  &trans    &trans     &trans    &trans     &trans    &trans            &trans            &macro_gprev      &macro_gnext      &kp PIPE    &trans
                              &trans    &trans     &trans    &kp LC(A)         &kp LG(SPACE)     &kp LG(ENTER)
             >;
 
