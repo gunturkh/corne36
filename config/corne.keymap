@@ -143,10 +143,10 @@
 
         num {
             bindings = <
-&trans  &kp N1     &kp N2      &kp N3  &kp N4  &kp N5    &trans  &trans     &trans     &trans    &trans    &trans
-&trans  &kp N6     &kp N7      &kp N8  &kp N9  &kp N0    &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
-&trans  &macro_00  &macro_000  &trans  &trans  &trans    &trans  &trans     &trans     &trans    &trans    &trans
-                               &trans  &trans  &trans    &trans  &trans     &trans
+&trans  &kp N1     &kp N2      &kp N3  &kp N4   &kp N5    &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &kp N6     &kp N7      &kp N8  &kp N9   &kp N0    &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
+&trans  &macro_00  &macro_000  &trans  &trans   &trans    &trans  &trans     &trans     &trans    &trans    &trans
+                               &trans  &kp DEL  &trans    &trans  &trans     &trans
             >;
 
             label = "num";
