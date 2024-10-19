@@ -154,10 +154,10 @@
 
         sym {
             bindings = <
-&trans  &kp GRAVE       &kp EXCLAMATION  &kp AT_SIGN   &kp POUND          &kp DOLLAR       &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans  &kp CARET       &kp AMPERSAND    &kp ASTERISK  &kp DOUBLE_QUOTES  &kp PIPE         &trans  &kp LSHFT             &kp LCTRL              &kp RALT          &kp RGUI           &trans
-&trans  &kp UNDERSCORE  &kp EQUAL        &kp PLUS      &kp SQT            &kp BACKSLASH    &trans  &trans                &trans                 &trans            &trans             &trans
-                                         &trans        &kp DELETE         &trans           &trans  &trans                &trans
+&trans  &kp GRAVE       &kp EXCLAMATION  &kp AT_SIGN   &kp POUND          &kp DOLLAR       &kp LEFT_BRACE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans  &kp CARET       &kp AMPERSAND    &kp ASTERISK  &kp DOUBLE_QUOTES  &kp PIPE         &kp RIGHT_BRACE  &kp LSHFT             &kp LCTRL              &kp RALT          &kp RGUI           &trans
+&trans  &kp UNDERSCORE  &kp EQUAL        &kp PLUS      &kp SQT            &kp BACKSLASH    &trans           &trans                &trans                 &trans            &trans             &trans
+                                         &trans        &kp DELETE         &trans           &trans           &trans                &trans
             >;
 
             label = "sym";
