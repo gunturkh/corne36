@@ -212,7 +212,6 @@
             quick-tap-ms = <200>;
         };
 
-    };
         smart_shift: smart_shift {
             compatible = "zmk,behavior-tap-dance";
             label = "SMART_SHIFT";
